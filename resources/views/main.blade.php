@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>Kampus Indonesia</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap Icons-->
@@ -58,9 +58,8 @@
                     <hr class="divider" />
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 mb-5">Start Bootstrap can help you build better websites using the Bootstrap
-                        framework! Just download a theme and start customizing, no strings attached!</p>
-                    <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+                    <p class="text-white-75 mb-5">Website untuk membantu calon mahasiswa menentukan pilihan jurusan dan kampus impian.</p>
+                    <a class="btn btn-primary btn-xl" href="#about">Detail</a>
                 </div>
             </div>
         </div>
@@ -83,7 +82,7 @@
     <!-- Services-->
     <section class="page-section" id="services">
         <div class="container px-4 px-lg-5">
-            <h2 class="text-center mt-0">At Your Service</h2>
+            <h2 class="text-center mt-0">Layanan Kami</h2>
             <hr class="divider" />
             <div class="row gx-4 gx-lg-5">
                 <div class="col-lg-3 col-md-6 text-center">
