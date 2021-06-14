@@ -15,7 +15,7 @@
         ></a>
   
         <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/sabililhaqq/" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/sabililhaqq" role="button"
           ><i class="fab fa-instagram"></i
         ></a>
   
@@ -35,7 +35,7 @@
       <!-- Section: Text -->
       <section class="mb-4">
         <p>
-          
+          0821-1912-2125
         </p>
       </section>
       <!-- Section: Text -->
