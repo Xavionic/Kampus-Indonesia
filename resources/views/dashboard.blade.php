@@ -36,24 +36,24 @@
                         <div class="btn btn-default btn-xl col-lg-3 col-md-6 text-center">
                             <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Informasi Kampus</h3>
-                            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                            <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat elementum leo in tristique.</p>
                         </div>
                         <div class="btn btn-default btn-xl col-lg-3 col-md-6 text-center">
                             <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Info Beasiswa</h3>
-                            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                            <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat elementum leo in tristique.</p>
                         </div>
                         <div class="btn btn-default btn-xl col-lg-3 col-md-6 text-center">
 
                             <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Tes Minat dan Bakat</h3>
-                            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                            <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat elementum leo in tristique.</p>
                         </div>
                         <div class="btn btn-default btn-xl col-lg-3 col-md-6 text-center">
 
                             <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Artikel</h3>
-                            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                            <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat elementum leo in tristique.</p>
                         </div>
                     </div>
                     <br>
