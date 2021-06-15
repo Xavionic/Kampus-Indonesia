@@ -18,11 +18,29 @@ Route::get('/', function () {
     return view('main');
 });
 
-Route::view('/kampus', 'kampus.index');
-
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+
+
+// Route::middleware(['auth:sanctum', 'verified'])->get('/kampus', function () {
+//     return view('kampus.index');
+// })->name('informasi kampus');
+
+// Route::middleware(['auth:sanctum', 'verified'])->get('/beasiswa', function () {
+//     return view('beasiswa.index');
+// })->name('informasi beasiswa');
+
+// Route::middleware(['auth:sanctum', 'verified'])->get('/tes', function () {
+//     return view('tes.index');
+// })->name('tes minat dan bakat');
+
+// Route::middleware(['auth:sanctum', 'verified'])->get('/artikel', function () {
+//     return view('artikel.index');
+// })->name('artikel');
+
+
 
 Route::get('authorized/google', [LoginWithGoogleController::class, 'redirectToGoogle']);
 Route::get('authorized/google/callback', [LoginWithGoogleController::class, 'handleGoogleCallback']);

@@ -18,29 +18,29 @@
                 </div>
                 
 
-                {{-- <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-jet-nav-link href="{{ route('kampus.index') }}" :active="request()->routeIs('kampus.index')">
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('kampus') }}" :active="request()->routeIs('kampus')">
                         {{ __('Informasi Kampus') }}
                     </x-jet-nav-link>
-                </div> --}}
+                </div>
 
-                {{-- <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-jet-nav-link href="{{ route('beasiswa.index') }}" :active="request()->routeIs('beasiswa.index')">
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('beasiswa') }}" :active="request()->routeIs('beasiswa')">
                         {{ __('Informasi Beasiswa') }}
                     </x-jet-nav-link>
                 </div>
 
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-jet-nav-link href="{{ route('tes.index') }}" :active="request()->routeIs('tes.index')">
+                    <x-jet-nav-link href="{{ route('tes') }}" :active="request()->routeIs('tes')">
                         {{ __('Tes Minat dan Bakat') }}
                     </x-jet-nav-link>
                 </div>
 
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-jet-nav-link href="{{ route('artikel.index') }}" :active="request()->routeIs('artikel.index')">
+                    <x-jet-nav-link href="{{ route('artikel') }}" :active="request()->routeIs('artikel')">
                         {{ __('Artikel Perkuliahan') }}
                     </x-jet-nav-link>
-                </div> --}}
+                </div>
             </div>
 
             <div class="hidden sm:flex sm:items-center sm:ml-6">
