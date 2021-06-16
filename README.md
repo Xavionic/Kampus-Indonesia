@@ -9,9 +9,11 @@
 
 ## About Project
 
-This project is assignment for internship for Kampus Indonesia, created by Muhammad Furqony Sabililhaq with Laravel, Bootstrap, Tailwind CSS.
+This project is assignment for internship for Kampus Indonesia, created by Muhammad Furqony Sabililhaq with Laravel Framework, Bootstrap, and Tailwind CSS.
 
-## How to Use
+## Recommmendation
+
+Use the Database seeder for creating initial data without input with command : "php artisan migrate:fresh --seed"
 
 
 
