@@ -67,12 +67,22 @@
                             <h5 class="mt-0 mb-1">{{ $d->name }}</h5>
                             <p>{{ $d ->detail }}</p>
                         </div>
-                        <button>Detail</button>
+                        <br>
+                        <button class = "btn btn-info">Detail</button>
                     </li>
                     <br>
 
                     @endforeach
                 </ul>
+                <script>
+                    btns = document.querySelectorAll('.btn-info');
+    
+                    btns.forEach(btn => {
+                        btn.addEventListener('click', () => {
+                            alert('Mohon maaf, fitur belum tersedia');
+                        });
+                    });
+                </script>
 
                 <ul class="list-unstyled">
 
