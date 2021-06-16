@@ -45,7 +45,7 @@
             <div class="card-header">
                 <div class="flex-shrink-0 flex items-center mr-4">
                     <a href="{{ url('/kampus') }}">
-                        <i class="fas fa-home fs-3 text-secondary"></i>
+                        <i class="fas fa-arrow-left fs-3 text-secondary"></i>
                     </a>
                     
                 </div>
