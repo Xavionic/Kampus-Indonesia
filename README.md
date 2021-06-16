@@ -15,7 +15,7 @@ This project is assignment for internship for Kampus Indonesia, created by Muham
 
 Use the Database seeder for creating initial data without input with command : "php artisan migrate:fresh --seed"
 
-
+![public](public/assets/img/interface/a.png)
 
 
 

@@ -67,6 +67,7 @@
                             <h5 class="mt-0 mb-1">{{ $d->name }}</h5>
                             <p>{{ $d ->detail }}</p>
                         </div>
+                        <button>Detail</button>
                     </li>
                     <br>
 
