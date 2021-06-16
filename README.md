@@ -21,6 +21,8 @@ Use the Database seeder for creating initial data without input with command : "
 ![alt text](https://github.com/Xavionic/Kampus-Indonesia/blob/master/public/assets/img/interface/c.png?raw=true)
 ![alt text](https://github.com/Xavionic/Kampus-Indonesia/blob/master/public/assets/img/interface/d.png?raw=true)
 ![alt text](https://github.com/Xavionic/Kampus-Indonesia/blob/master/public/assets/img/interface/e.png?raw=true)
+![alt text](https://github.com/Xavionic/Kampus-Indonesia/blob/master/public/assets/img/interface/f.png?raw=true)
+
 
 
 
