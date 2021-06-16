@@ -7,6 +7,19 @@
 
 
     <div class="container py-12">
+      <div class="card">
+        <div class="card-body">
+          <div class="empty-state" data-height="400" style="height: 400px;">
+            <div class="empty-state-icon">
+              <i class="fas fa-question"></i>
+            </div>
+            <h2>Currently Under Maintenance Service</h2>
+            <p class="lead">
+              Mohon maaf fitur ini belum selesai, silahkan coba fitur yang lain.
+            </p>
+          </div>
+        </div>
+      </div>
 
         <div class="card">
             <div class="card-header">
@@ -65,28 +78,6 @@
                   <option>Option 6</option>
                 </select></div><div class="selectric"><span class="label">Option 1</span><b class="button">▾</b></div><div class="selectric-items" tabindex="-1"><div class="selectric-scroll"><ul><li data-index="0" class="">Option 1</li><li data-index="1" class="">Option 2</li><li data-index="2" class="">Option 3</li><li data-index="3" class="">Option 4</li><li data-index="4" class="">Option 5</li><li data-index="5" class="last">Option 6</li></ul></div></div><input class="selectric-input" tabindex="0"></div>
               </div>
-              <div class="section-title">Select Group Button</div>
-              <div class="form-group">
-                <label class="form-label">Size</label>
-                <div class="selectgroup w-100">
-                  <label class="selectgroup-item">
-                    <input type="radio" name="value" value="50" class="selectgroup-input" checked="">
-                    <span class="selectgroup-button">S</span>
-                  </label>
-                  <label class="selectgroup-item">
-                    <input type="radio" name="value" value="100" class="selectgroup-input">
-                    <span class="selectgroup-button">M</span>
-                  </label>
-                  <label class="selectgroup-item">
-                    <input type="radio" name="value" value="150" class="selectgroup-input">
-                    <span class="selectgroup-button">L</span>
-                  </label>
-                  <label class="selectgroup-item">
-                    <input type="radio" name="value" value="200" class="selectgroup-input">
-                    <span class="selectgroup-button">XL</span>
-                  </label>
-                </div>
-              </div>
               <div class="form-group">
                 <label class="form-label">Icons input</label>
                 <div class="selectgroup w-100">
@@ -105,27 +96,6 @@
                   <label class="selectgroup-item">
                     <input type="radio" name="transportation" value="6" class="selectgroup-input">
                     <span class="selectgroup-button selectgroup-button-icon"><i class="fas fa-times"></i></span>
-                  </label>
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="form-label">Icon input</label>
-                <div class="selectgroup selectgroup-pills">
-                  <label class="selectgroup-item">
-                    <input type="radio" name="icon-input" value="1" class="selectgroup-input" checked="">
-                    <span class="selectgroup-button selectgroup-button-icon"><i class="fas fa-sun"></i></span>
-                  </label>
-                  <label class="selectgroup-item">
-                    <input type="radio" name="icon-input" value="2" class="selectgroup-input">
-                    <span class="selectgroup-button selectgroup-button-icon"><i class="fas fa-moon"></i></span>
-                  </label>
-                  <label class="selectgroup-item">
-                    <input type="radio" name="icon-input" value="3" class="selectgroup-input">
-                    <span class="selectgroup-button selectgroup-button-icon"><i class="fas fa-cloud-rain"></i></span>
-                  </label>
-                  <label class="selectgroup-item">
-                    <input type="radio" name="icon-input" value="4" class="selectgroup-input">
-                    <span class="selectgroup-button selectgroup-button-icon"><i class="fas fa-cloud"></i></span>
                   </label>
                 </div>
               </div>

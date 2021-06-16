@@ -47,6 +47,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/kampus/buat', [KampusCont
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/kampus/buatin', [KampusController::class, 'new'])->name('buatin');
 
+Route::middleware(['auth:sanctum', 'verified'])->get('/kampus/jurusan/buat', [KampusController::class, 'createDept'])->name('buat jurusan');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/kampus/jurusan/buatin', [KampusController::class, 'newDept'])->name('buatin jurusan');
+
+
 
 
 // Route::get('Kampus', [KampusController::class, 'index']);

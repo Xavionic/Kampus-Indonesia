@@ -21,7 +21,17 @@
                     <p class="lead">
                         Maaf, daftar jurusan pada universitas ini belum ada
                     </p>
-                    <a href="#" class="btn btn-primary mt-4">Buatin</a>
+                    @foreach($university as $u)
+                    <form action="/kampus/jurusan/buat" method="get">
+                        @csrf
+                        <input type="hidden" id="univ_id" name="univ_id" value={{ $u->id }}>
+                        <input type="hidden" id="univ_name" name="univ_name" value={{ $u->name }}>
+
+                        <button class="btn btn-primary mt-4">Buatin</button>
+
+                    </form>
+                    @endforeach
+
 
                     <div class="float-left mt-sm-0 mt-3">
                         <br>
@@ -33,13 +43,6 @@
         </div>
         @else
 
-        {{-- <div class="row">
-
-            @foreach($departments as $d)
-
-            @endforeach
-
-        </div> --}}
 
         <div class="card">
             <div class="card-header">
@@ -47,7 +50,7 @@
                     <a href="{{ url('/kampus') }}">
                         <i class="fas fa-arrow-left fs-3 text-secondary"></i>
                     </a>
-                    
+
                 </div>
                 @foreach($university as $u)
                 <h3>Jurusan pada {{ $u->name }}</h3>
@@ -72,7 +75,16 @@
 
                 <ul class="list-unstyled">
 
-                    <a class ="mx-3" href="#">Tambahkan <i class="fas fa-edit"></i></a>
+                    <form action="/kampus/jurusan/buat" method="get">
+                        @csrf
+                        <input type="hidden" id="univ_id" name="univ_id" value={{ $u->id }}>
+                        <input type="hidden" id="univ_name" name="univ_name" value={{ $u->name }}>
+
+                        <button class="btn btn-primary mt-4 mx-4">
+                            <i class="fas fa-edit"></i>
+                            Tambahkan</button>
+
+                    </form>
 
                 </ul>
             </div>

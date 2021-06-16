@@ -49,6 +49,28 @@ class KampusController extends Controller
         return Redirect('/kampus');
     }
 
+    public function createDept(){
+        $univ_id = request('univ_id');
+        $univ_name = request('univ_name');
+
+        return view('kampus.buatjurusan', ['univ_id' => $univ_id, 'univ_name' => $univ_name]);
+    }
+
+    public function newDept()
+    {
+        //
+        $id = auth()->user()->id;
+        Department::create([
+            'univ_id' => request('univ_id'),
+            'name' => request('name'),
+            'detail' => request('detail'),
+        ]);
+
+        return Redirect('/kampus');
+    }
+
+
+
     /**
      * Store a newly created resource in storage.
      *
