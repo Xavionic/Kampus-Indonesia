@@ -16,15 +16,12 @@ This project is assignment for internship for Kampus Indonesia, created by Muham
 Use the Database seeder for creating initial data without input with command : "php artisan migrate:fresh --seed"
 
 ## Website Quick Look
-![alt text](https://github.com/Xavionic/Kampus-Indonesia/tree/master/public/assets/interface/a.png?raw=true)
-<br>
-![alt text](https://github.com/Xavionic/Kampus-Indonesia/tree/master/public/assets/interface/b.png?raw=true)
-<br>
-![alt text](https://github.com/Xavionic/Kampus-Indonesia/tree/master/public/assets/interface/c.png?raw=true)
-<br>
-![alt text](https://github.com/Xavionic/Kampus-Indonesia/tree/master/public/assets/interface/d.png?raw=true)
-<br>
-![alt text](https://github.com/Xavionic/Kampus-Indonesia/tree/master/public/assets/interface/e.png?raw=true)
+![alt text](https://github.com/Xavionic/Kampus-Indonesia/blob/master/public/assets/img/interface/a.png?raw=true)
+![alt text](https://github.com/Xavionic/Kampus-Indonesia/blob/master/public/assets/img/interface/b.png?raw=true)
+![alt text](https://github.com/Xavionic/Kampus-Indonesia/blob/master/public/assets/img/interface/c.png?raw=true)
+![alt text](https://github.com/Xavionic/Kampus-Indonesia/blob/master/public/assets/img/interface/d.png?raw=true)
+![alt text](https://github.com/Xavionic/Kampus-Indonesia/blob/master/public/assets/img/interface/e.png?raw=true)
+
 
 
 
