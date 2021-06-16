@@ -33,28 +33,28 @@
                     <br>
                     <div class="row gx-4 gx-lg-5">
 
-                        <div class="btn btn-default btn-xl col-lg-3 col-md-6 text-center">
-                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+                        <a class="btn btn-default btn-xl col-lg-3 col-md-6 text-center" href="{{ route('kampus') }}">
+                            <div class="mb-2"><i class="fas fa-laptop fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Informasi Kampus</h3>
                             <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat elementum leo in tristique.</p>
-                        </div>
-                        <div class="btn btn-default btn-xl col-lg-3 col-md-6 text-center">
-                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                        </a>
+                        <a class="btn btn-default btn-xl col-lg-3 col-md-6 text-center" href="{{ route('beasiswa') }}">
+                            <div class="mb-2"><i class="fas fa-money-check fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Info Beasiswa</h3>
                             <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat elementum leo in tristique.</p>
-                        </div>
-                        <div class="btn btn-default btn-xl col-lg-3 col-md-6 text-center">
+                        </a>
+                        <a class="btn btn-default btn-xl col-lg-3 col-md-6 text-center" href="{{ route('tes') }}">
 
-                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <div class="mb-2"><i class="fas fa-atom fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Tes Minat dan Bakat</h3>
                             <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat elementum leo in tristique.</p>
-                        </div>
-                        <div class="btn btn-default btn-xl col-lg-3 col-md-6 text-center">
+                        </a>
+                        <a class="btn btn-default btn-xl col-lg-3 col-md-6 text-center" href="{{ route('artikel') }}">
 
-                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+                            <div class="mb-2"><i class="fas fa-archive fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Artikel</h3>
                             <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat elementum leo in tristique.</p>
-                        </div>
+                        </a>
                     </div>
                     <br>
                 </div>
