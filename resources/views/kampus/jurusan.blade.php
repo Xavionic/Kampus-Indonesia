@@ -69,6 +69,12 @@
 
                     @endforeach
                 </ul>
+
+                <ul class="list-unstyled">
+
+                    <a class ="mx-3" href="#">Tambahkan <i class="fas fa-edit"></i></a>
+
+                </ul>
             </div>
         </div>
 

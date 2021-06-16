@@ -32,9 +32,21 @@ class KampusController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+
+    public function create(){
+        return view('kampus.buat');
+    }
+
+    public function new()
     {
         //
+        $id = auth()->user()->id;
+        University::create([
+            'name' => request('name'),
+            'detail' => request('detail'),
+        ]);
+
+        return Redirect('/kampus');
     }
 
     /**

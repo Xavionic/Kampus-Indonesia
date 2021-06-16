@@ -38,6 +38,22 @@
             </div>
             @endforeach
 
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <article class="article">
+                    {{-- <div class="card"> --}}
+                        {{-- <div class="card-body"> --}}
+                          <div class="empty-state" data-height="400" style="height: 400px;">
+                            <div class="empty-state-icon">
+                              <i class="fas fa-edit"></i>
+                            </div>
+                            <h2>Tambahkan Universitas</h2>
+                            <a href="{{ url('/kampus/buat') }}" class="btn btn-primary mt-4">Buat</a>
+                          </div>
+                        {{-- </div> --}}
+                      {{-- </div> --}}
+                </article>
+            </div>
+
         </div>
 
 
