@@ -9,7 +9,7 @@
 
 ## About Project
 
-This project is assignment for internship for Kampus Indonesia, created by Muhammad Furqony Sabililhaq with Laravel Framework, Bootstrap, and Tailwind CSS.
+This project is assignment for internship for Kampus Indonesia, created by Muhammad Furqony Sabililhaq with Laravel Framework, Google Console API, Bootstrap, and Tailwind CSS.
 
 ## Recommmendation
 
