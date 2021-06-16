@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\University;
+use App\Models\Department;
 use Illuminate\Http\Request;
+use PDO;
 
 class KampusController extends Controller
 {
@@ -14,6 +17,14 @@ class KampusController extends Controller
     public function index()
     {
         //
+        $universities = University::all();
+        return view('kampus.index', ['universities' => $universities]);
+    }
+
+    public function jurusan(){
+        $university = University::all()->where('id', '=', request('univ_id'));
+        $departments = Department::all()->where('univ_id', '=', request('univ_id'));
+        return view('kampus.jurusan', ['university' => $university, 'departments' => $departments]);
     }
 
     /**
@@ -80,5 +91,10 @@ class KampusController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function __invoke()
+    {
+        
     }
 }

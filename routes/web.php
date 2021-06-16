@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginWithGoogleController;
+use App\Http\Controllers\KampusController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,9 +35,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/artikel', function () {
     return view('artikel.index');
 })->name('artikel');
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/kampus', function () {
-    return view('kampus.index');
-})->name('kampus');
+Route::middleware(['auth:sanctum', 'verified'])->get('/kampus', [KampusController::class, 'index'])->name('kampus');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/kampus/jurusan', [KampusController::class, 'jurusan'])->name('jurusan');
+
+// Route::get('Kampus', [KampusController::class, 'index']);
 
 
 

@@ -62,7 +62,7 @@
                 </div>
                 <div class="col-lg-8 align-self-baseline">
                     <p class="text-white-75 mb-5">Website untuk membantu calon mahasiswa menentukan pilihan jurusan dan
-                        kampus impian.</p>
+                        kampus impian dan menjalani kehidupan perkuliahan lebih baik lagi.</p>
                     <a class="btn btn-primary btn-xl" href="#about">Detail</a>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                     <h2 class="text-white mt-0">Tentang Kami</h2>
                     <hr class="divider divider-light" />
                     <p class="text-white-75 mb-4">Kampus Indonesia - Kami membagikan informasi seputar jurusan dan
-                        kampus, media informasi beasiswa, </p>
+                        kampus, media informasi beasiswa, tes minat dan bakat, serta artikel dunia perkuliahan.</p>
                     <a class="btn btn-light btn-xl" href="{{ route('login') }}">Get Started!</a>
                 </div>
             </div>
