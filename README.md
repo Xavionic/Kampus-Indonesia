@@ -4,13 +4,13 @@
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
 ## About Project
 
 This project is assignment for internship for Kampus Indonesia, created by Muhammad Furqony Sabililhaq with Laravel Framework, Google Console API, Bootstrap, and Tailwind CSS.
 
+Testing Git
 ## Recommmendation
 
 Use the Database seeder for creating initial data without input with command : "php artisan migrate:fresh --seed"
